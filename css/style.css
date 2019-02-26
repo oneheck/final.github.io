@@ -1419,7 +1419,7 @@ slide p {
 /*---------------Media Querry----------------------*/
 @media only screen and (max-width: 600px){
   .map iframe {
-    width: 325px;
+    width: 320px;
     height: 200px;
     border: none;
   }
