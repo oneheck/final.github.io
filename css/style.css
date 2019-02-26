@@ -1564,6 +1564,20 @@ h4 {
   animation-delay: 2ms;
   animation-fill-mode: forwards;
 }
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  background: white;
+  border: 1px solid white;
+  outline: none !important;
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem !important;
+  width: 100%;
+}
+.active {
+  padding: 0px;
+}
 .navbar-toggler {
   background-color: red!important;
  }
