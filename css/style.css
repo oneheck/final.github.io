@@ -1419,7 +1419,7 @@ slide p {
 /*---------------Media Querry----------------------*/
 @media only screen and (max-width: 600px){
   .map iframe {
-    width: 340px;
+    width: 325px;
     height: 200px;
     border: none;
   }
@@ -1564,10 +1564,10 @@ h4 {
   animation-fill-mode: forwards;
 }
 .navbar-toggler {
-  background-color: rgb(218, 106, 32) !important;
+  background-color: red !important;
  }
  .custom-toggler.navbar-toggler {
-  border-color: rgb(252, 12, 12)!important;
+  border-color: rgb(240, 231, 231)!important;
 }
 .custom-toggler .navbar-toggler-icon {
 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
