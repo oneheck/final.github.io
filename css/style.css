@@ -1564,7 +1564,7 @@ h4 {
   animation-fill-mode: forwards;
 }
 .navbar-toggler {
-  background-color: red !important;
+  background-color: red!important;
  }
  .custom-toggler.navbar-toggler {
   border-color: rgb(240, 231, 231)!important;
