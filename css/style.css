@@ -63,7 +63,8 @@ body {
 }
 
 .back {
-  background-color: black;
+   background: #fff;
+ /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
   color: white;
 }
 /*----------------for the other side of the carousel---------------*/
@@ -136,9 +137,10 @@ h4 {
   width: 150px;
 }
 .active {
-  background-color: #330000;
-  color: black !important;
+  border: 1px solid #330000 !important;
+
 }
+
 .navbar .nav-item a {
   color: #000 !important;
   font-weight: 2px;
@@ -343,8 +345,18 @@ hr {
   background-color: black;
   color: white;
 }
+.fod {
+  background: ;
+  box-sizing: border-box;
+  padding-left: 30px !important;
+   padding-right: 30px !important;
+   padding-top: 30px;
+   padding-bottom: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
 .cd {
-  background-color: black;
+  background: #fff;
+ /*background-image: linear-gradient(-90deg, brown, gray);*/
 }
 .footer .fot {
   background-color: black;
@@ -714,11 +726,13 @@ hr {
 .gallery-block.cards-gallery .card img {
   box-shadow: 0px 2px 20px white;
   width:100%;
+   border: 1px solid #000;
 }
 
 .gallery-block.cards-gallery .card-body {
   text-align: center;
-  background-color: red;
+  background-color: #000;
+  border: 2px solid #330000;
 }
 
 .gallery-block.cards-gallery .card-body p {
@@ -764,7 +778,7 @@ input {
   width: 100%;
   border: 1px solid white;
   background: black;
-  color: white;
+  color: white ;
 }
 
 input:focus {
@@ -782,7 +796,7 @@ input[type="submit"] {
 input[type="text"] {
   width: 100%;
   border: white;
-  background: none;
+  background: #000;
   height: 45px;
   color: white;
   border: 1px solid white;
@@ -796,13 +810,13 @@ textarea {
   margin-bottom: 25px;
   width: 100%;
   border: 1px solid white;
-  background: black;
+  background: black !important;
   color: white !important;
 }
 textarea:focus {
   background: white;
   border: 1px solid red;
-  color: red !important;
+  color: #fff !important;
 }
 /*for quote page*/
 
@@ -814,9 +828,15 @@ textarea:focus {
   background-color: white;
 }
 .fill {
-  color: white;
+  color: #000;
   text-align: center;
-  background-color: red;
+  background-color: white;
+   box-sizing: border-box;
+  padding-left: 30px !important;
+   padding-right: 30px !important;
+   padding-top: 30px;
+   padding-bottom: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
 }
 /* for store*/
 .gallery-block h1 {
@@ -1174,13 +1194,14 @@ slide p {
 /*-----------------------Footer---------------------*/
 #footer {
   margin-top: 10px;
-  padding: 100px;
-  background-color: black;
+  padding: 10px;
+  background-color: #fff;
   color: #181a1dd0;
+  border-top: 1px solid #330000;
 }
 #footer .col-md-3 {
-  margin-top: -20px;
-  color: white;
+  margin-top: 20px;
+  color: #000;
 }
 #footer .col-md-3  h1{
   color: red;
@@ -1389,7 +1410,12 @@ slide p {
   align-items: center !important;
   height: 50px;
 }
+.xmore {
+  background-color: transparent;
+  color: #fff !important;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
 
+}
 
 /*-----------------------End wall partition -----------------*/
 
@@ -1444,7 +1470,7 @@ slide p {
   #footer {
     margin-top: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: #fff!important;
     color: #181a1dd0;
     padding-bottom: 20px;
   }
